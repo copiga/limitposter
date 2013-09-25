@@ -16,7 +16,7 @@ int main(void)
   printf("\tmin:\t\t%d\t\t0x%X\n\tmax:\t\t %d\t\t0x%X\n\tunsigned:\t %u\t\t0x%X\n\n", INT_MIN, INT_MIN, INT_MAX, INT_MAX, UINT_MAX, UINT_MAX);
   
   printf("long long\t\tbits:\t\t%d\tbytes:\t\t%d\n", sizeof(long)*8, sizeof(long));
-  printf("\tmin:\t\t%lld\t0x%llX\n\tmax:\t\t %lld\t0x%llX\n\tunsigned\t %llu\t0x%llX\n\n", LLONG_MIN, LLONG_MIN, LLONG_MAX, LLONG_MAX, ULLONG_MAX, ULLONG_MAX); 
+  printf("\tmin:\t\t%lld\t0x%llX\n\tmax:\t\t %lld\t0x%llX\n\tunsigned\t %llu\t0x%llX\n\n", LLONG_MIN, LLONG_MIN, LLONG_MAX, LLONG_MAX, ULLONG_MAX, ULLONG_MAX); //doesnt work properly on IA32. fix this.
 
   
   
